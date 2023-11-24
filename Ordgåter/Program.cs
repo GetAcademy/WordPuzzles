@@ -43,9 +43,9 @@ namespace Ordgåter
 
         private static bool IsLastPartOfFirstWordEqualToFirstPartOfSecondWord(string word1, string word2)
         {
-            return IsLastPartOfFirstWordEqualToFirstPartOfSecondWord(5, word1, word2)
+            return IsLastPartOfFirstWordEqualToFirstPartOfSecondWord(3, word1, word2)
                 || IsLastPartOfFirstWordEqualToFirstPartOfSecondWord(4, word1, word2)
-                || IsLastPartOfFirstWordEqualToFirstPartOfSecondWord(3, word1, word2);
+                || IsLastPartOfFirstWordEqualToFirstPartOfSecondWord(5, word1, word2);
         }
 
         private static bool IsLastPartOfFirstWordEqualToFirstPartOfSecondWord(int commonLength, string word1, string word2)
